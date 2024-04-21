@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+</head>
+<body>
+    <h1 style="color: red;">INFORMACION PESONAL</h1>
+    <form action="/index.html">
+        <label for="lectura">ESTUDIANTE</label><br>
+        <label for="nombre">Nombre completo: </label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email"><br>
+        <label for="edad">Edad:</label>
+        <input type="text" name="edad" id="edad"><br>
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select name="nacionalidad" id="nacionalidad">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Europa">Europa</option>
+            <option value="Norte america">Norte America</option>
+        </select><br>
+        <!--<input type="submit" value="seleccionar">-->
+        <label for="trabajo">Condicion laboral:</label>
+        <select name="trabajo" id="trabajo">
+            <option value="desempleado">Desempleado</option>
+            <option value="busqueda">En busqueda laboral</option>
+            <option value="part">Trabajo part time</option>
+            <option value="full">Trabajo full time</option>
+        </select><br>
+        <h3>Informacion de gustos personales</h3>
+        <label for="musica">Gustos musicales:</label>
+        <input type="text" name="musica" id="musica"><br>
+        <label for="comida">Comida preferida:</label>
+        <select name="comida" id="comida">
+            <option value="asado">Asado</option>
+            <option value="pizza">Pizza</option>
+            <option value="empanadas">Empanadas</option>
+            <option value="pastas">Pastas</option>
+            <option value="hamburguesa">Hamburguesa</option>
+            <option value="ensalada">Ensalada</option>
+            <option value="tarta">Tartas</option>
+            <option value="milanesa">Milanesa</option>
+        </select><br>
+        <input type="submit" value="ENVIAR FORMULARIO">
+    </form>
+</body>
+</html>
